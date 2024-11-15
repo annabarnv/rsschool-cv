@@ -36,3 +36,14 @@ function convert(input, source, target) {
 }
 ```
 
+## Education
+
+* **State Budget Professional Educational Institution of the republic of Adygea “College of Arts”:** Theory of Music, Piano
+
+* Courses:
+  * The Rollings Scopes School Course “JavaScript/Front-end. Stage 0, Stage 1, Stage 2.”
+  * Code Basics Course HTML/CSS/JavaScript for beginners
+  * CS50 lectures
+  * Conversational English course for adults (level B1)
+  * Norwegian course intermediate level at the folk high school in Norway (B1)
+
