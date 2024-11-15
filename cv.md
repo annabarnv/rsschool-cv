@@ -47,3 +47,8 @@ function convert(input, source, target) {
   * Conversational English course for adults (level B1)
   * Norwegian course intermediate level at the folk high school in Norway (B1)
 
+## Languages:
+
+  * **English** - B1 (EPAM Training Portal English test result) I had been practicing English when I lived in Norway on a cultural exchange program.
+  * **Norwegian** - B1 Norway, Tønsberg Læringssenter Norskprøve(https://www.kompetansenorge.no/)
+  * **Russian** - Native
