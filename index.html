@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Baranova CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#codeExample" class="nav-link">Code Example</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img class="my-photo" src="./assets/img/my-photo.png" alt="my photo">
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Anna Baranova</h1>
+            <h3 class="section-subtitle">Junior Front-End Developer</h3>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Location: <span>Belgrade, Serbia</span>
+          </li>
+          <li class="section-item contacts-item">
+            Phone:
+            <a href="tel:+381611735346" class="nav-link contacts-link">+381611735346</a>
+          </li>
+          <li class="section-item contacts-item">
+            Email:
+            <a href="mailto:anna.barnv@gmail.com" title="email" class="nav-link contacts-link">anna.barnv@gmail.com</a>
+          </li>
+          <li class="section-item contacts-item">
+            GitHub:
+            <a href="https://github.com/annabarnv" title="github" class="nav-link contacts-link">annabarnv</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord:
+            <span class="contacts-link">@Anna B(annabarnv)</span>
+          </li>
+        </ul>
+        </section>
+        <section class="section" id="aboutMe">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I am learning front-end development. I love the idea of taking data and convert it into something visually appealing for users to enjoyably digest. I see programming for myself as a form of creativity and self-expression just like in music. My first education was in the theory of music and harmony. In my opinion, coding and music have similarities. Both require large amounts of deliberate practice and are not an innate talent. Well, with the exception of geniuses.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              HTML5, CSS3, Sass
+            </li>
+            <li class="section-item">
+              Java Script Core
+            </li>
+            <li class="section-item">
+              Git, GitHub
+            </li>
+            <li class="section-item">
+              Visual Studio Code
+            </li>
+            <li class="section-item">
+              Chrome DevTools
+            </li>
+            <li class="section-item">
+              Figma (for developers)
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="codeExample">
+        <h2 class="section-title">Code Example</h2>
+        <pre class="pre">
+        <code>
+        function convert(input, source, target) {
+          let s = 0, str = '';
+          for(let i = 0; i &lt input.length; i++) {
+          s = s*source.length + source.indexOf(input[i]);
+        }
+          while (s &gt 0) {
+          str = target[s % target.length] + str;
+            s = Math.floor(s/target.length);
+        }
+          return str ? str : target[0];
+        }
+        </code>
+        </pre>
+        </section>
+        <section class="section courses-section" id="courses">
+           <h2 class="section-title courses-title">Courses</h2>
+          <div class="courses-container">
+            <ul class="section-list">
+              <li class="section-item">
+                The Rollings Scopes School - <span>"JavaScript/Front-end. Stage 0, Stage 1, Stage 2."</span>
+              </li>
+              <li class="section-item">
+                Code Basics - <span>HTML/CSS/JavaScript for beginners</span>
+              </li>
+              <li class="section-item">
+                CS50 lectures
+              </li>
+              <li class="section-item">
+                Mr.Language Educational Center - <span>Conversational English for adults (B1)</span>
+              </li>
+              <li class="section-item">
+                Tønsberg Læringssenter, Norway - <span>Intermediate Norwegian course(B1)</span>
+              </li>
+            </ul>
+            <section class="certificate-container">
+            <img src="assets/img/rss-certificate.jpg" alt="RSSchool Certificate" width="380" height="260" class="certificate">
+            <img src="assets/img/stage2-certificate.jpg" alt="RSSchool Certificate" width="380" height="260" class="certificate">
+            </section>
+        </div>
+        </section>
+        <section class="projects-section" id="projects">
+          <h2 class="section-title project-title">Projects</h2>
+          <ul class="projects-list">
+            <li class="project-card">
+              <h3>Portfolio</h3>
+              <div class="project">
+                <div class="project-pic">
+                  <a href="https://rolling-scopes-school.github.io/annabarnv-JSFEPRESCHOOL/portfolio/" target="_blank">
+                    <img src="assets/img/portfolio.png" alt="Portfolio" width="340" height="180">
+                </a>
+                </div>
+                <div class="project-description">
+                  <p>Photographer portfolio landing page.</p>
+                  <p>Use: <span>HTML5, CSS3, JavaScript, DOM</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3>Eco-Sounds</h3>
+              <div class="project">
+                <div class="project-pic">
+                  <a href="https://rolling-scopes-school.github.io/annabarnv-JSFEPRESCHOOL/eco-sounds/" target="_blank">
+                    <img src="assets/img/eco-sounds.png" alt="Eco-Sounds" width="340" height="180">
+                </a>
+                </div>
+                <div class="project-description">
+                  <p>An media interactive application.</p>
+                  <p>Use: <span>HTML5, CSS3, JavaScript, DOM</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3>Movie-App</h3>
+              <div class="project">
+                <div class="project-pic">
+                  <a href="https://rolling-scopes-school.github.io/annabarnv-JSFEPRESCHOOL/movie-app/" target="_blank">
+                    <img src="assets/img/moovie-app.png" alt="Movie-App" width="340" height="180">
+                </a>
+                </div>
+                <div class="project-description">
+                  <p>An application that displays information about movies at the request of the user.</p>
+                  <p>Use: <span>HTML5, CSS3, JavaScript, API</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3>Tic-Tac-Toe</h3>
+              <div class="project">
+                <div class="project-pic">
+                  <a href="https://rolling-scopes-school.github.io/annabarnv-JSFEPRESCHOOL/tic-tac-toe/" target="_blank">
+                    <img src="assets/img/tic-tac-toe.png" alt="Tic-Tac-Toe" width="340" height="180">
+                </a>
+                </div>
+                <div class="project-description">
+                  <p>Tic-tac-toe game application.</p>
+                  <p>Use: <span>HTML5, CSS3, JavaScript, DOM</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3>Shelter</h3>
+              <div class="project">
+                <div class="project-pic">
+                  <a href="https://annabarnv.github.io/shelter-project/index.html" target="_blank">
+                    <img src="assets/img/shelter.png" alt="Shelter" width="340" height="180">
+                </a>
+                </div>
+                <div class="project-description">
+                  <p>A two-page adaptive interactive website.</p>
+                  <p>Use: <span>HTML5, CSS3, Sass, JavaScript, DOM</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3>CSS Meme Slider</h3>
+              <div class="project">
+                <div class="project-pic">
+                  <a href="https://annabarnv.github.io/cssMemSlider/cssMemSlider/index.html" target="_blank">
+                    <img src="assets/img/css-meme-slider.png" alt="Meme pic" width="340" height="180">
+                </a>
+                </div>
+                <div class="project-description">
+                  <p>A meme slider implemented in pure СSS.</p>
+                  <p>Use: <span>HTML5, CSS3</span></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="section section-education" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>State Budget Professional Educational Institution of the republic of Adygea "College of Arts": <span>Theory of Music/Piano</span>
+          </p>
+        </section>
+        <section class="section section-english" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              English - B1 <span>(EPAM Training Portal English test result) I had been practicing English when I lived in Norway on a cultural exchange program.</span>
+            </li>
+            <li class="section-item">
+              Norwegian - B1 <span>Norway, Tønsberg Læringssenter Norskprøve <a href="http://www.kompetansenorge.no/" class="norsk">http://www.kompetansenorge.no/</a></span>
+            </li>
+            <li class="section-item">
+              Russian - <span>Native</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-data">
+          <p class="year">© 2022</p>
+          <a class="github nav-link" href="https://github.com/annabarnv">My GitHub</a>
+        </div>
+        <a href="https://rs.school/js/" class="rss-logo"></a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
